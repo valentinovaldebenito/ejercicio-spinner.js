@@ -13,7 +13,11 @@ function onClick(){
         <div id="spinnerContainer">
             <img id="enano-bostero" src="./public/assets/enano-bostero.jpg">
             <h3>Gracias por ver, saludos!</h3>
+            <audio id="daleBocaDale" src="./public/assets/audio/Dale dale boca.mp3"></audio>
         </div>
         `
+        const audio = new Audio("./public/assets/audio/Dale dale boca.mp3");
+        audio.play();
     }, 1500);
 }
+
